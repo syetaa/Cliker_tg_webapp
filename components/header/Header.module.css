@@ -7,3 +7,7 @@
 
     background: var(--nav-background);
 }
+
+.textmain svg:hover{
+    fill: #ffffff;
+}
