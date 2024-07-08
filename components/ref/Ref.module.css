@@ -1,8 +1,9 @@
 .textmain{
     padding: 0 0;
     height: 182px;
-    background: url(../../public/Card_back.png);
-    background-repeat: no-repeat;
+    background: #0E0E10;
+    background: linear-gradient(45deg, rgba(66, 187, 71, 0.06), rgba(66, 187, 71, 0.2));
+border-radius: 24px;
 
     display: flex;
     flex-direction: column;
