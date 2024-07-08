@@ -1,0 +1,45 @@
+.textmain{
+    background: var(--card-background);
+    padding: 12px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.text2{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;       /* !!! */
+}
+.card{
+    display: flex;
+    column-gap: 13px;
+    background: var(--card-color);
+    padding: 12px 20px;
+    border-radius: 16px;
+}
+
+.card_text1{
+    font-size: 18px;
+    font-weight: 600;
+}
+.card_text2{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    color: var(--text-color2);
+}

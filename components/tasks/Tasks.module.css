@@ -1,0 +1,29 @@
+.textmain{
+    color: #fff;
+}
+.tasks{
+    background: var(--card-background);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding: 25px 18px;
+}
+.task{
+    border-radius: 16px;
+    background: var(--card-color);
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.text2{
+    display: flex;
+    column-gap: 4px;
+    align-items: center;
+}

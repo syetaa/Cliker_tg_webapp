@@ -1,0 +1,11 @@
+.textmain{
+    padding: 22px 18px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.text1{
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--text-color1);
+}
