@@ -3,7 +3,7 @@
     height: 182px;
     background: #0E0E10;
     background: linear-gradient(45deg, rgba(66, 187, 71, 0.06), rgba(66, 187, 71, 0.2));
-border-radius: 24px;
+    border-radius: 24px;
 
     display: flex;
     flex-direction: column;
@@ -12,8 +12,13 @@ border-radius: 24px;
     row-gap: 12px;
 }
 .score{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
     font-size: 42px;
     font-weight: 600;
+
+    
 }
 .ref_btn{
     padding: 12px 80px;

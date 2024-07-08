@@ -11,6 +11,7 @@
   --text-color2:  #bbbbbb;
 
   --primary-color:  #42BB47;
+  --coin-color: linear-gradient(90deg, #eccf5f 0%, #b79f41 59%, #eccf5f 100%);
 }
 a{
   user-select: none;

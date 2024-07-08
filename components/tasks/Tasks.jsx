@@ -3,7 +3,7 @@ import styles from "./Tasks.module.css"
 import Image from "next/image";
 
 import tg_logo from "@/public/Telegram_logo.png"
-import union_sm from "@/public/Union_sm.png"
+import union_sm from "@/public/Union_sm3.png"
 import youtube_sm from "@/public/youtube_sm.png"
 
 
@@ -23,7 +23,7 @@ const Tasks = () => {
                                 Подписаться на наш канал
                             </div>
                             <div className={styles.text2}>
-                                + 100 <Image src={union_sm} alt="union_logo"/>
+                                + 100 <Image src={union_sm} alt="union_logo" width={18} height={18} quality={100}/>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ const Tasks = () => {
                                 Подписаться на наш канал
                             </div>
                             <div className={styles.text2}>
-                                + 100 <Image src={union_sm} alt="union_logo"/>
+                                + 100 <Image src={union_sm} alt="union_logo" width={18} height={18} quality={100}/>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Tasks = () => {
                                 Подписаться на наш канал Namechannel2
                             </div>
                             <div className={styles.text2}>
-                                + 200 <Image src={union_sm} alt="union_logo"/>
+                                + 200 <Image src={union_sm} alt="union_logo" width={18} height={18} quality={100}/>
                             </div>
                         </div>
                     </div>

@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    row-gap: 33px;
+    row-gap: 26px;
 }
 .greeting{
     font-size: 28px;
@@ -28,14 +28,21 @@
     row-gap: 7px;
 }
 .text1{
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
     color: var(--text-color2);
 }
 .text2{
     font-size: 42px;
-    font-weight: 600;
-    color: var(--primary-color);
+    font-weight: 700;
+    background: var(--coin-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
 }
 .btn{
     margin-top: 18px;

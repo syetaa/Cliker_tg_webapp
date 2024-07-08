@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import point from "@/public/Point_img.png";
 import point_sm from "@/public/Point_sm.png";
-import union_sm from "@/public/Union_sm.png";
+import union_sm from "@/public/Union_sm3.png";
 
 
 const Goods = () => {
@@ -30,7 +30,7 @@ const Goods = () => {
                                 Робаксы
                             </div>
                             <div className={styles.card_text2}>
-                                100.000 <Image src={union_sm}/> = 1 <Image src={point_sm}/>
+                                100.000 <Image src={union_sm} width={18} height={18} quality={100}/>
                             </div>
                         </div>
                     </div>
