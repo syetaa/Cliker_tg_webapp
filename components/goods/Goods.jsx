@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import point from "@/public/Point_img.png";
 import point_sm from "@/public/Point_sm.png";
-import union_sm from "@/public/union_sm.png";
+import union_sm from "@/public/Union_sm.png";
 
 
 const Goods = () => {
